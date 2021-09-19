@@ -1,6 +1,8 @@
 .container {
     max-width: 1170px;
     padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .awesome__subtitle {
