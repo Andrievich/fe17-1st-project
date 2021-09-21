@@ -1,4 +1,6 @@
 @import url('../css/awesome.css');
+@import url('../css/pricing.css');
+
 html {
     font-family: 'Open Sans', 'Raleway', sans-serif;
 }
@@ -7,4 +9,13 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
 }

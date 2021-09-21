@@ -1,0 +1,81 @@
+.pricing {
+    background-color: #E5E5E5;
+}
+
+.pricing__subtitle {
+    text-align: center;
+    padding-top: 80px;
+    margin: 0 0 25px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.pricing__underline {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #D98943;
+    margin-bottom: 30px;
+}
+
+.pricing__wrapper {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px 0;
+    padding-bottom: 80px;
+}
+
+.pricing__column {
+    width: 340px;
+    margin: 0 15px;
+}
+
+li {
+    margin-bottom: 2px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+     
+}
+
+.item-list {
+    line-height: 40px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.bop {
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+.dollars {
+    line-height: 100px;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ffl {
+    line-height: 50px;
+    background-color: #333333;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#orange {
+    background-color: #D98943;
+}
