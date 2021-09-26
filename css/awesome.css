@@ -1,6 +1,11 @@
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 100px 15px 109px;
+}
+
 .awesome__subtitle {
     text-align: center;
-    padding-top: 100px;
     margin: 0 0 25px;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
@@ -30,7 +35,7 @@
 }
 
 .wrapper {
-    margin: 0 -15px 109px;
+    margin: 0 -15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +74,7 @@
     text-align: center;
 }
 
-img {
+.icon-img {
     display: block;
     margin: 19px auto;
 }
