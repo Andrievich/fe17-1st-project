@@ -2,6 +2,10 @@
 @import url('../css/pricing.css');
 @import url('../css/customers.css');
 @import url('../css/design.css');
+@import url('../css/header.css');
+@import url('../css/social.css');
+@import url('../css/footer.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 html {
     font-family: 'Open Sans', 'Raleway', sans-serif;
@@ -18,5 +22,5 @@ html {
 .container {
     max-width: 1170px;
     margin: auto;
-    padding: 80px 15px 109px;
+    padding: 0 15px;
 }
