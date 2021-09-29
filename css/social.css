@@ -1,11 +1,13 @@
 .social {
     background-color: #F8EFEF;
+    padding: 14px 0 17px;
 }
 
 .social__wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .social__wrapper-column {
@@ -31,7 +33,8 @@
 
 .social__ul {
     display: flex;
-    padding: 34px 0;
+    flex-wrap: wrap;
+    
     
 }
 
@@ -39,6 +42,7 @@
     margin-left: 48px;
     font-size: 42px;
     color: rgba(134, 135, 139, .5);
+    transition-duration: 0.2s;
     
 }
 
@@ -47,6 +51,6 @@
     color: #798eec;
     border-bottom: 3px;
     border-left: 3px;
-    transform: skew(-20deg);
+    transform: skew(-10deg) scale(1.1);
 
 }

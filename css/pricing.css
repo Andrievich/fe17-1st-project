@@ -41,6 +41,11 @@
     margin: 0 15px;
 }
 
+.pricing__column:hover {
+    transform: translateY(-17px);
+    transition-duration: 0.2s;
+}
+
 .li {
     margin-bottom: 2px;
     text-align: center;
@@ -54,6 +59,18 @@
     font-size: 14px;
     font-weight: 400;
     color: #86878B;
+    
+}
+
+.item-list:hover {
+    background-color: #6de4e4;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transform: scale(1.02);
+    border-radius: 4px;
+    box-shadow: inset 0 0 10px #6aa8d1
+    
 }
 
 .bop {
@@ -67,6 +84,11 @@
 }
 .bop:hover {
     background-color: #D98943;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transform: scale(1.02);
+    border-radius: 6px;
+    box-shadow: inset 0 0 10px #f57070
 }
 
 .dollars {
@@ -79,6 +101,11 @@
 }
 .dollars:hover {
     background-color: #D98943;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transform: scale(1.02);
+    border-radius: 6px;
+    box-shadow: inset 0 0 10px #f57070
 }
 
 .ffl {
@@ -87,7 +114,13 @@
     color: rgba(255, 255, 255, 0.5);
     font-weight: 600;
     font-size: 14px;
+    
 }
 .ffl:hover {
     background-color: #D98943;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transform: scale(1.02);
+    border-radius: 6px;
+    box-shadow: inset 0 0 10px #f57070
 }
