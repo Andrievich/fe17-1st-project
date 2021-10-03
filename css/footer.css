@@ -13,11 +13,9 @@
     
 }
 
-.footer__ul {
+.footer__list {
     display: flex;
-    flex-wrap: wrap;
-    /* margin-top: 30px; */
-    
+    flex-wrap: wrap; 
    
 }
 
@@ -28,12 +26,65 @@
     
 }
 
+       
+#wifi:hover {
+    display: block;
+    color: #79beec;
+    transform: scale(2);
+    transition-duration: 0.2s;
+    
+    
+}
+
+#share:hover {
+    display: block;
+    color: #2b862b;
+    transform: scale(2);
+    transition-duration: 0.2s;
+    
+   }
+
+#instagram:hover {
+    display: block;
+    color: #d60c0c;
+    transform: scale(2);
+    transition-duration: 0.2s;
+   }
+   
+#poo:hover {
+    display: block;
+    color: #5e2609;
+    transform: scale(2);
+    transition-duration: 0.2s;
+   }
+
+#google:hover {
+    display: block;
+    color: #e42ecb;
+    transform: scale(2);
+    transition-duration: 0.2s;
+   }
+
+#twitter:hover {
+    display: block;
+    color: #63e7f8;
+    transform: scale(2);
+    transition-duration: 0.2s;
+   }
+
+#fasebook:hover {
+    display: block;
+    color: #0d0fa5;
+    transform: scale(2);
+    transition-duration: 0.2s;
+   }
 
 .footer__axure {
+    width: 130px;
+    margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    /* padding-bottom: 15px; */
     font-family: Open Sans, sans-serif;
     font-weight: normal;
     font-size: 12px;
@@ -42,67 +93,3 @@
     color: rgba(255, 255, 255, 0.5);
     
 }
-       
-    #wifi:hover {
-    display: block;
-    color: #79beec;
-    transform: scale(2);
-    transition-duration: 0.2s;
-    
-    
-   }
-
-   #share:hover {
-    display: block;
-    color: #2b862b;
-    transform: scale(2);
-    transition-duration: 0.2s;
-    
-   }
-
-   #instagram:hover {
-    display: block;
-    color: #d60c0c;
-    transform: scale(2);
-    transition-duration: 0.2s;
-   }
-   
-   #poo:hover {
-    display: block;
-    color: #5e2609;
-    transform: scale(2);
-    transition-duration: 0.2s;
-   }
-
-   #google:hover {
-    display: block;
-    color: #e42ecb;
-    transform: scale(2);
-    transition-duration: 0.2s;
-   }
-
-   #twitter:hover {
-    display: block;
-    color: #63e7f8;
-    transform: scale(2);
-    transition-duration: 0.2s;
-   }
-
-   #fasebook:hover {
-    display: block;
-    color: #0d0fa5;
-    transform: scale(2);
-    transition-duration: 0.2s;
-   }
-
-/*.footer__link:hover {
-    display: inline-block;
-    color: #be79ec;
-    transform: scale(2);
-   }/*
-        
-   .footer__link:hover {
-    display: inline-block;
-    color: #be79ec;
-    transform: scale(2);
-   }

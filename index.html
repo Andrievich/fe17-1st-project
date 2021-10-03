@@ -38,38 +38,38 @@
                         </p>
                     </div>
                 </div>
-                <ul class="social__ul">
-                    <li class="social__li">
+                <ul class="social__list">
+                    <li class="social__item">
                         <a class="social__link" href="#">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
-                    <li class="social__li">
+                    <li class="social__item">
                         <a class="social__link" href="#">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </li>
-                    <li class="social__li">
+                    <li class="social__item">
                         <a class="social__link" href="#">
                             <i class="fab fa-google-plus-g"></i>
                         </a>
                     </li>
-                    <li class="social__li">
+                    <li class="social__item">
                         <a class="social__link" href="#">
                             <i class="fas fa-poo"></i>
                         </a>
                     </li>
-                    <li class="social__li">
+                    <li class="social__item">
                         <a class="social__link" href="#">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
-                    <li class="social__li">
+                    <li class="social__item">
                         <a class="social__link" href="#">
                             <i class="fas fa-share-alt"></i>
                         </a>
                     </li>
-                    <li class="social__li">
+                    <li class="social__item">
                         <a class="social__link" href="#">
                             <i class="fas fa-wifi"></i>
                         </a>
@@ -78,6 +78,48 @@
             </div>
         </div>
     </section>  
+
+    <section class="section">
+        <div class="container">
+            <div class="section__wrapper">
+                <div class="section__wrapper1">
+                    <div class="section__logo">ax</div>
+                    <h1 class="section__title">
+                        modern axure template for beautiful prototypes
+                    </h1>
+                    <div class="section__discription">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente!</p>
+                    </div>
+                    <div class="section__download">
+                        <a class="section__link" href="#">Download</a>
+                    </div>
+                </div>
+                <div class="section__wrapper2">
+                    <form action="#" name="section__form" method="POST">
+                        <div class="form__content">
+                         <h3 class="form__title"> Try Your <span class="title-free">free </span>Trial Today</h3>
+                        <div class="form__item">
+                            <label class="form__label" for="form-name">Name</label><br>
+                            <input class="form__input" type="text" required id="form-name">
+                        </div>
+                        <div class="form__item">
+                            <label class="form__label" for="form-email">Email</label><br>
+                            <input class="form__input" type="email" required id="form-email">
+                        </div>
+                        <div class="form__item">
+                            <label class="form__label" for="form-password">Password</label><br>
+                            <input class="form__input" type="password" required id="form-password">
+                        </div>
+                        </div>
+                        <div class="section__form__button">
+                            <button class="section__button">Get Started</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <section class="awesome">
         <div class="container">
@@ -91,7 +133,7 @@
             <div class="wrapper">
                 <div class="wrapper__column">
                     <div class="column__icon">
-                        <img class="icon-img" src="./img/awesome_icon1.png" alt="awesome_icon1">
+                        <i class="far fa-lightbulb"></i>
                     </div>
                     <h3 class="column__title">
                         Thoughtful Design
@@ -102,7 +144,7 @@
                 </div>
                 <div class="wrapper__column">
                     <div class="column__icon">
-                        <img class="icon-img" src="./img/awesome_icon2.png" alt="awesome_icon2">
+                        <i class="far fa-keyboard"></i>
                     </div>
                     <h3 class="column__title">
                         Well Crafted
@@ -113,7 +155,7 @@
                 </div>
                 <div class="wrapper__column">
                     <div class="column__icon">
-                        <img class="icon-img" src="./img/awesome_icon3.png" alt="awesome_icon3">
+                        <i class="fas fa-bolt"></i>
                     </div>
                     <h3 class="column__title">
                         Easy to Customize
@@ -275,47 +317,83 @@
             <div class="design__discription">
                 <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
             </div>
-            <div class="design__link">
-                <a class="link__download" href="#">Download</a>
+            <div class="design__download">
+                <a class="design__link" href="#">Download</a>
             </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2 class="contact__subtitle">
+                Contact us
+            </h2>
+            <div class="contact__discription">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <form class="contact__form" action="#" name="section__form" method="POST">
+                <div class="contact__wrapper">
+                    <div class="contact__form__content">
+                        <div class="contact__form__item">
+                            <label class="contact__form__label" for="contact-name">Name</label><br>
+                            <input class="contact__form__input" type="text" required id="contact-name">
+                        </div>
+                        <div class="contact__form__item">
+                            <label class="contact__form__label" for="contact-email">Email</label><br>
+                            <input class="contact__form__input" type="email" required id="contact-email">
+                        </div>
+                        <div class="contact__form__item">
+                            <label class="contact__form__label" for="contact-password">Password</label><br>
+                            <input class="contact__form__input" type="password" required id="contact-password">
+                        </div>
+                    </div>
+                    <div class="contact__form__content">
+                        <div class="contact__form__message">
+                            <label class="contact__form__message-label" for="contact-message">Message</label><br>
+                            <textarea class="contact__form__textarea" name="contact__textarea" maxlength="100" id="contact-message" ></textarea>
+                        </div>
+                    </div>
+                </div>
+                <button class="contact__button">Send Message</button>
+            </form>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
             <div class="footer__wrapper">
-                <ul class="footer__ul">
-                    <li class="footer__li">
+                <ul class="footer__list">
+                    <li class="footer__item">
                         <a class="footer__link" href="#" id='fasebook'>
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
-                    <li class="footer__li">
+                    <li class="footer__item">
                         <a class="footer__link" href="#" id='twitter'>
                             <i class="fab fa-twitter"></i>
                         </a>
                     </li>
-                    <li class="footer__li">
+                    <li class="footer__item">
                         <a class="footer__link" href="#" id='google'>
                             <i class="fab fa-google-plus-g"></i>
                         </a>
                     </li>
-                    <li class="footer__li">
+                    <li class="footer__item">
                         <a class="footer__link" href="#" id='poo'>
                             <i class="fas fa-poo"></i>
                         </a>
                     </li>
-                    <li class="footer__li">
+                    <li class="footer__item">
                         <a class="footer__link" href="#" id='instagram'>
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
-                    <li class="footer__li">
+                    <li class="footer__item">
                         <a class="footer__link" href="#" id='share'>
                             <i class="fas fa-share-alt"></i>
                         </a>
                     </li>
-                    <li class="footer__li">
+                    <li class="footer__item">
                         <a class="footer__link" href="#" id='wifi'>
                             <i class="fas fa-wifi" ></i>
                         </a>

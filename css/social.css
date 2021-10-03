@@ -31,7 +31,7 @@
     font-weight: 400;
 }
 
-.social__ul {
+.social__list {
     display: flex;
     flex-wrap: wrap;
     
