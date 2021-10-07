@@ -64,6 +64,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
+    transition: 0.2s;
 }
 .design__link:hover {
     background-color: rgba(246, 246, 246, 0.4);
@@ -73,5 +74,4 @@
     text-shadow: 0 0 2px #FFFFFF;
     color: rgba(0, 0, 0, 0.55) ;
     font-weight: 600;
-    transition: 0.2s;
 }

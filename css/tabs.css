@@ -1,0 +1,110 @@
+.tabs {
+    padding-top: 80px;
+}
+
+.tabs__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs__button-list {
+    display: flex;
+}
+
+.tabs__button-item {
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    text-transform: uppercase;
+    padding: 10px 73px;
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+    
+    cursor: pointer;
+    transition: 0.5s;
+}
+.tabs__button-item:hover{
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #C6CBCD;
+    border-bottom: transparent;
+    position: relative;
+    top: 1px;
+    left: 0;
+    
+}
+
+.tabs__row {
+    width: 100%;
+    border: 1px solid #C6CBCD;
+    display: flex;
+    
+}
+
+.tabs__row__content {
+    padding: 42px 30px 54px 100px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tabs__row__content-subtitle {
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 68px;
+}
+
+.tabs__row__content-discription {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 27px;
+}
+
+.tabs__row__content-download {
+    width: 270px;
+    /* overflow: hidden; */
+    
+}
+
+.tabs__link {
+    display: block;
+    width: 100%;
+    line-height: 58px;
+    background-color: #EC7979;
+    color: #FFFFFF;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.tabs__link:hover {
+    background-color: rgba(171, 73, 73, 1);
+}
+
+.tabs__link:active {
+    background-color: #EC7979;
+    box-shadow: inset 0px 0px 10px rgba(171, 73, 73, 1);
+}
+
+.tabs__content-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    height: auto;
+    overflow: hidden;
+    
+}
+
+.tabs__image-img {
+    height: 100%;
+    width: auto;
+} 

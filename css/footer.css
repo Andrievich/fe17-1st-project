@@ -19,64 +19,48 @@
    
 }
 
-.footer__link {
+.footer__item {
     font-size: 23px;
     margin-right: 20px;
-    color: rgba(134, 135, 139, .5);
+    transition: 0.9s;
     
+}
+.footer__item:hover {
+    transform: scale(2);
+}
+
+.footer__link {
+    color: rgba(134, 135, 139, .5);
+    transition: 0.9s;
 }
 
        
 #wifi:hover {
-    display: block;
-    color: #79beec;
-    transform: scale(2);
-    transition-duration: 0.2s;
-    
-    
+    color: #79beec;  
 }
 
 #share:hover {
-    display: block;
     color: #2b862b;
-    transform: scale(2);
-    transition-duration: 0.2s;
-    
    }
 
 #instagram:hover {
-    display: block;
-    color: #d60c0c;
-    transform: scale(2);
-    transition-duration: 0.2s;
+    color: #d60c0c;    
    }
    
 #poo:hover {
-    display: block;
-    color: #5e2609;
-    transform: scale(2);
-    transition-duration: 0.2s;
+    color: #5e2609;    
    }
 
 #google:hover {
-    display: block;
-    color: #e42ecb;
-    transform: scale(2);
-    transition-duration: 0.2s;
+    color: #e42ecb; 
    }
 
 #twitter:hover {
-    display: block;
     color: #63e7f8;
-    transform: scale(2);
-    transition-duration: 0.2s;
    }
 
 #fasebook:hover {
-    display: block;
     color: #0d0fa5;
-    transform: scale(2);
-    transition-duration: 0.2s;
    }
 
 .footer__axure {

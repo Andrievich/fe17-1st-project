@@ -45,11 +45,16 @@
 }
 
 
-.person__icon-img {
-    display: block;
+.person__icon {
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    overflow: hidden;
+}
+
+.person__icon-img {
+    width: 70px;
+    height: 70px;
 }
 
 .column__person {

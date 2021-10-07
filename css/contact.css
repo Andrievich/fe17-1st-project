@@ -40,16 +40,22 @@
 .contact__form__content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0 15px;
+    width: 45%;
+    min-width: 300px;
 }
 .contact__form__item {
     font-family:'Open Sans', sans-serif;
     font-weight: normal;
-    width: 478px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    margin-bottom: 31px;
+}
+
+.contact__form__item:last-child {
+    margin-bottom: 0;
+
 }
 
 .contact__form__label {
@@ -66,13 +72,14 @@
     border-bottom: 1px solid #BDBDBD;
     font-size: 16px;
     color: #EC7979;   
+    padding-bottom: 5px;
 }
 
 
 .contact__form__message {
     font-family:'Open Sans', sans-serif;
     font-weight: normal;
-    width: 478px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -86,7 +93,7 @@
 
 .contact__form__textarea {
     outline: none;
-    height: 216px;
+    height: 150px;
     width: 100%;
     border: 0;
     border-bottom: 1px solid #BDBDBD;
@@ -97,21 +104,22 @@
 
 .contact__button {
     display: block;
-    width: 166px;
+    padding: 11px 32px;
     background-color: #EC7979;
-    line-height: 42px;
+    line-height: 20px;
     text-align: center;
     border: none;
     font-family:'Open Sans', sans-serif;
     font-weight: 600;
+    font-size: 15px;
     color: #FFFFFF;
     cursor: pointer;
     margin: auto;
+    transition: 0.3s;
 }
 .contact__button:hover {
     border-radius: 3px;
-    box-shadow: inset 0 0 15px #BDBDBD;
-    transition: 0.3s;
+    box-shadow: inset 0 0 15px #000;
     transform: scale(1.05);
-    color: #BDBDBD;
+    color: #FFFFFF;
 }
