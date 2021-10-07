@@ -31,26 +31,29 @@
     font-weight: 400;
 }
 
-.social__ul {
+.social__list {
     display: flex;
     flex-wrap: wrap;
     
-    
+}
+
+.social__item {
+    transition: 0.3s;
+    margin-left: 48px;
+    font-size: 42px;   
+
+}
+.social__item:hover {
+    transform: skew(-10deg) scale(1.1);
 }
 
 .social__link {
-    margin-left: 48px;
-    font-size: 42px;
     color: rgba(134, 135, 139, .5);
-    transition-duration: 0.2s;
+    transition: 0.3s;
     
 }
 
 .social__link:hover {
-    display: inline-block;
     color: #798eec;
-    border-bottom: 3px;
-    border-left: 3px;
-    transform: skew(-10deg) scale(1.1);
 
 }

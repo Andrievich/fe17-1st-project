@@ -49,24 +49,29 @@
     text-align: center;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    color: #FFFFFF;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .design__link {
+    display: block;
     width: 135px;
-    height: 42px;
+    line-height: 42px;
     border: 1px solid #FFFFFF;
-    margin: auto;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.link__download {
+    margin: auto;
     color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 400;
+    transition: 0.2s;
+}
+.design__link:hover {
+    background-color: rgba(246, 246, 246, 0.4);
+    border: 1px solid rgb(100, 98, 98);
+    border-radius: 3px;
+    box-shadow: inset 0 0 10px #000;
+    text-shadow: 0 0 2px #FFFFFF;
+    color: rgba(0, 0, 0, 0.55) ;
+    font-weight: 600;
 }

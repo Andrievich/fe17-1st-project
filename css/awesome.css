@@ -49,7 +49,19 @@
     border: 1px solid #D98943;    
     border-radius: 50%;
     margin: 0 auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D98943;
+    font-size: 32px;
+    transition: 0.4s;
 
+}
+
+.column__icon:hover {
+    cursor: pointer;
+    transform: rotate(720deg) scale(1.2);
+    
 }
 
 .column__title {

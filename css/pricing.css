@@ -5,7 +5,6 @@
 
 .container__pricing {
     max-width: 1170px;
-    /* padding: 80px 15px; */
     margin: auto;
 }
 
@@ -39,11 +38,12 @@
 .pricing__column {
     width: 340px;
     margin: 0 15px;
+    transition: 0.2s;
 }
 
 .pricing__column:hover {
     transform: translateY(-17px);
-    transition-duration: 0.2s;
+
 }
 
 .li {
@@ -59,6 +59,7 @@
     font-size: 14px;
     font-weight: 400;
     color: #86878B;
+    transition: 0.2s;
     
 }
 
@@ -66,7 +67,6 @@
     background-color: #6de4e4;
     color: #FFFFFF;
     cursor: pointer;
-    transition-duration: 0.2s;
     transform: scale(1.02);
     border-radius: 4px;
     box-shadow: inset 0 0 10px #6aa8d1
@@ -80,12 +80,12 @@
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
+    transition: 0.2s;
     
 }
 .bop:hover {
     background-color: #D98943;
     cursor: pointer;
-    transition-duration: 0.2s;
     transform: scale(1.02);
     border-radius: 6px;
     box-shadow: inset 0 0 10px #f57070
@@ -98,11 +98,11 @@
     font-weight: 700;
     font-size: 35px;
     font-family: 'Raleway', sans-serif;
+    transition: 0.2s;
 }
 .dollars:hover {
     background-color: #D98943;
     cursor: pointer;
-    transition-duration: 0.2s;
     transform: scale(1.02);
     border-radius: 6px;
     box-shadow: inset 0 0 10px #f57070
@@ -114,12 +114,12 @@
     color: rgba(255, 255, 255, 0.5);
     font-weight: 600;
     font-size: 14px;
+    transition: 0.2s;
     
 }
 .ffl:hover {
     background-color: #D98943;
     cursor: pointer;
-    transition-duration: 0.2s;
     transform: scale(1.02);
     border-radius: 6px;
     box-shadow: inset 0 0 10px #f57070
