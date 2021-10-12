@@ -86,3 +86,21 @@
     display: block;
     margin: 19px auto;
 }
+
+@media (max-width: 860px) {
+    .wrapper__column{
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 759px) {
+    .wrapper__column{
+        margin-bottom: 50px;
+    }
+    .wrapper__column:last-child{
+        margin-bottom: 0;
+    }
+    .column__icon {
+        margin-bottom: 10px;
+    }
+}

@@ -89,3 +89,9 @@
     text-align: right;
 
 }
+
+@media (max-width: 983px){
+    .customers__column {
+        margin-bottom: 25px;
+    }
+}
